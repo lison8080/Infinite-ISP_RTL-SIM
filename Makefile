@@ -55,7 +55,7 @@ FILELIST     := $(PROJ_ROOT)/filelist.f
 .PHONY: all compile sim sim_fsdb verdi clean help
 
 # Default target
-all: sim
+all: vcs
 
 # Compile all sources with VCS
 compile:
